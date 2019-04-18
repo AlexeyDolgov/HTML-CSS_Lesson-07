@@ -1,0 +1,178 @@
+body {
+    background-image: url(images/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Arial";
+    color: #b9b9b9;
+}
+
+div.LoginForm {
+    background-image: url(images/form-bg.png);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 608px;
+    height: 353px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border: 0;
+    padding: 25px;
+    padding-top: 70px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h1 span:first-child {
+    color: black;
+}
+
+h1 span:last-child {
+    color: #2944ab;
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+    border-top: 1px solid #b9b9b9;
+}
+
+td {
+    vertical-align: top;
+}
+
+td:nth-child(1) {
+    width: 50%;
+}
+
+td:nth-child(2) {
+    width: 5%;
+}
+
+td:nth-child(3) {
+    width: 45%;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+p span:first-child {
+    color: #2944ab;
+}
+
+p span:last-child {
+    color: #30cad0;
+}
+
+input[type="submit"] {
+    margin-left: 25px;
+    margin-top: 15px;
+    height: 35px;
+    width: 215px;
+    border-radius: 12px;
+    text-align: left;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+input.fb {
+    background: url(images/fb-icon.png) no-repeat center left, -webkit-gradient(linear, left top, left bottom, from(#668dc8), to(#4870ab));
+    background: url(images/fb-icon.png) no-repeat center left, -webkit-linear-gradient(#668dc8, #4870ab);
+    background: url(images/fb-icon.png) no-repeat center left, -o-linear-gradient(#668dc8, #4870ab);
+    background: url(images/fb-icon.png) no-repeat center left, linear-gradient(#668dc8, #4870ab);
+    background-position: 10px;
+    color: white;
+    border: 0;
+}
+
+input.tw {
+    background: url(images/twitter-icon.png) no-repeat center left, -webkit-gradient(linear, left top, left bottom, from(#53d0d5), to(#36b3b8));
+    background: url(images/twitter-icon.png) no-repeat center left, -webkit-linear-gradient(#53d0d5, #36b3b8);
+    background: url(images/twitter-icon.png) no-repeat center left, -o-linear-gradient(#53d0d5, #36b3b8);
+    background: url(images/twitter-icon.png) no-repeat center left, linear-gradient(#53d0d5, #36b3b8);
+    background-position: 10px;
+    color: white;
+    border: 0;
+}
+
+div.vl {
+    margin-top: 20px;
+}
+
+div.vl1,
+div.vl2 {
+    height: 60px;
+    width: 0;
+    margin-left: 7px;
+    border-left: 1px solid #b9b9b9;
+}
+
+div.or p {
+    text-align: left;
+}
+
+input[type="text"] {
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 35px;
+    width: 175px;
+    border-radius: 12px;
+    text-align: left;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #ebebeb;
+    background: url(images/user-icon.png) no-repeat center left;
+    background-position: 10px;
+}
+
+input[type="password"] {
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 35px;
+    width: 175px;
+    border-radius: 12px;
+    text-align: left;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #ebebeb;
+    background: url(images/password-icon.png) no-repeat center left;
+    background-position: 10px;
+}
+
+input.LoginButton {
+    background: -webkit-gradient(linear, left top, left bottom, from(#fad965), to(#d1b03d));
+    background: -webkit-linear-gradient(#fad965, #d1b03d);
+    background: -o-linear-gradient(#fad965, #d1b03d);
+    background: linear-gradient(#fad965, #d1b03d);
+    background-position: 10px;
+    color: rgb(81, 81, 83);
+    font-size: 14px;
+    text-shadow: 0px 1px 2px white;
+    margin-left: 130px;
+    margin-top: 15px;
+    height: 35px;
+    width: 100px;
+    padding-left: 27px;
+}
+
+form p:last-child {
+    text-align: right;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+p a {
+    color: #b9b9b9;
+    text-decoration: none;
+}
